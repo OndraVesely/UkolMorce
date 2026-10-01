@@ -24,5 +24,5 @@ with open ("morcata.txt", encoding="utf-8") as soubor:
         print(f"{druh_pohlavi} morčete jménem: {jmeno}")
         print(f"- váží: {hmotnost} g")
         print(f"- datum narození: {datum_narozeni}")
-        print(f"- cena : {cena} Kč, cena se slevou 10%: {cena_se_slevou:.1f} Kč")
+        print(f"- cena se slevou 10%: {cena_se_slevou:.1f} Kč")
         print("-" * 40)
